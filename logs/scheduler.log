@@ -1,0 +1,22 @@
+2025-02-20 23:28:08,570 INFO:Database initialized successfully.
+2025-02-20 23:28:08,570 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-20 23:28:08,570 INFO:Scheduled Job 1: sample_function with {'name': 'Alice', 'age': 30}
+2025-02-20 23:28:08,570 INFO:Added job "1" to job store "default"
+2025-02-20 23:28:08,570 INFO:Scheduler started
+2025-02-20 23:28:08,570 INFO:Scheduler started successfully.
+2025-02-20 23:28:08,617 WARNING: * Debugger is active!
+2025-02-20 23:28:08,617 INFO: * Debugger PIN: 980-001-672
+2025-02-20 23:28:43,325 INFO: * Detected change in 'C:\\Users\\epost\\OneDrive\\Desktop\\Projects\\email-extractor-frompdf\\flaskscedularapp.py', reloading
+2025-02-20 23:28:43,325 INFO: * Detected change in 'C:\\Users\\epost\\OneDrive\\Desktop\\Projects\\email-extractor-frompdf\\flaskscedularapp.py', reloading
+2025-02-20 23:28:43,333 INFO: * Detected change in 'C:\\Users\\epost\\OneDrive\\Desktop\\Projects\\email-extractor-frompdf\\flaskscedularapp.py', reloading
+2025-02-20 23:28:45,073 INFO:Database initialized successfully.
+2025-02-20 23:28:45,073 INFO:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-02-20 23:28:45,073 INFO:Scheduled Job 1: sample_function with {'name': 'Alice', 'age': 30}
+2025-02-20 23:28:45,089 INFO:Added job "1" to job store "default"
+2025-02-20 23:28:45,089 INFO:Scheduler started
+2025-02-20 23:28:45,089 INFO:Scheduler started successfully.
+2025-02-20 23:28:45,105 WARNING: * Debugger is active!
+2025-02-20 23:28:45,121 INFO: * Debugger PIN: 980-001-672
+2025-02-20 23:29:00,007 INFO:Running job "1 (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2025-02-20 23:29:00 IST)" (scheduled at 2025-02-20 23:29:00+05:30)
+2025-02-20 23:29:00,007 INFO:Executing sample_function at 2025-02-20 23:29:00.007676 with name=Alice, age=30
+2025-02-20 23:29:00,007 INFO:Job "1 (trigger: cron[month='*', day='*', day_of_week='*', hour='*', minute='*/1'], next run at: 2025-02-20 23:30:00 IST)" executed successfully
