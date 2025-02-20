@@ -34,6 +34,13 @@ echo "🔄 Installing python3.11 and pip..."
 sudo yum install -y python3.11 python3.11-pip
 echo "✅ python3.11 and pip installed."
 
+# Install Git if not exists
+if ! command -v git &> /dev/null; then
+    echo "🔄 Installing Git..."
+    sudo yum install -y git
+    echo "✅ Git installed."
+fi
+
 # Ensure the application directory exists
 if [ ! -d "$APP_DIR" ]; then
     echo "📂 Creating application directory at $APP_DIR..."
@@ -48,7 +55,7 @@ echo "✅ GitHub repository cloned."
 
 # Install required Python packages
 echo "🔄 Installing required Python packages..."
-pip3 install -r "$APP_DIR/requirements.txt"
+pip3.11 install -r "$APP_DIR/requirements.txt"
 echo "✅ Python packages installed."
 
 # Create a systemd service file
