@@ -1,5 +1,5 @@
 # chmod +x setup_service.sh
-# ./setup_service.sh "Flask APScheduler Service" "flask_scheduler" "/home/ec2-user/ec2-scedular-service/app.py" "ec2-scedular-service"
+# ./service_setup.sh "Flask APScheduler Service" "flask_scheduler" "/home/ec2-user/ec2-scedular-service/app.py" "ec2-scedular-service"
 
 #!/bin/bash
 
@@ -49,9 +49,9 @@ if [ ! -d "$APP_DIR" ]; then
 fi
 
 # Clone the GitHub repository
-echo "🔄 Cloning GitHub repository..."
-git clone "https://github.com/gaurav9969351313/$PROJECT_NAME.git" "$APP_DIR"
-echo "✅ GitHub repository cloned."
+# echo "🔄 Cloning GitHub repository..."
+# git clone "https://github.com/gaurav9969351313/$PROJECT_NAME.git" "$APP_DIR"
+# echo "✅ GitHub repository cloned."
 
 # Install required Python packages
 echo "🔄 Installing required Python packages..."
